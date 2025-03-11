@@ -1,0 +1,257 @@
+.hero-banner {
+    background-color: #ff5202;
+    height: 100vh;
+    position: relative;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-banner svg {
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+
+.banner-bg {
+    background-image: url("../images/header/banner-bg.png");
+    background-size: contain;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+.herobanner-container {
+    width: 85%;
+    display: flex;
+    margin: 100px 0px;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+    height: 300px;
+    z-index: 2; 
+    animation: scaleIn 0.5s ease-out forwards;
+}
+@keyframes scaleIn {
+    0% {
+        transform: scale(0); /* Start with a scaled-up state */
+    }
+    100% {
+        transform: scale(1); /* End with the original size */
+    }
+}
+
+.hero-text {
+    width: 70%;
+    color: #212529;
+    text-align: left;
+}
+
+.hero-heading {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.hero-heading h1 {
+    font-size: 50px;
+    font-weight: 600;
+    color: #fff;
+}
+.hero-heading h1 span{
+    color: #06091b;
+}
+.hero-services {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+}
+
+.hero-services-bg {
+    position: absolute;
+    left: -10%;
+    bottom: 0;
+    height: 280px;
+    width: 100px;
+    background-image: url("https://www.schoolaura.com/Content/new_assets/images/header/header-girl-icon.png");
+    z-index: 2;
+    display: flex;
+}
+
+.hero-services-item {
+    width: 22%;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px 10px;
+    margin: 0;
+    box-shadow: 2px 2px 10px #0d1028;
+}
+
+.services-item-heading {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.services-item-heading h4 {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.services-item-exam,
+.services-item-course {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.services-item-exam a,
+.services-item-course a {
+    background: #ff5202;
+    color: #fff;
+    padding: 5px 0;
+    width: 80%;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.services-item-more {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 0;
+}
+
+.services-item-more a {
+    font-size: 14px;
+    font-weight: 600;
+    color: #06091b;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.login-form-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-login-form {
+    position: relative;
+}
+
+.form-user-img {
+    position: absolute;
+    z-index: 2;
+    overflow: visible !important;
+    left: 50%;
+    top: -80px;
+    transform: translate(-50%);
+}
+
+.form-user-img img {
+    width: 118px;
+}
+
+.form-container {
+    width: 300px;
+    background: #fff;
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+    margin: auto;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+.form-btn {
+    display: inline-block;
+    margin-top: 40px;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.form-btn ul li {
+    width: 50%;
+}
+
+.form-btn ul li a.active {
+    color: #789c05;
+    border-bottom: 2px solid #ff5202;
+}
+
+.form-btn ul li a {
+    color: #9a9a9a;
+    text-decoration: none;
+    width: 100%;
+    display: block;
+}
+
+.tab-content {
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.tab-content>.active {
+    display: block;
+}
+
+.form-container .form-btn form input {
+
+    width: 100%;
+    font-size: 14px;
+    margin-bottom: 10px;
+    padding: 0 10px;
+    background: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 0 !important;
+}
+#home{ 
+    width: 90%;
+}
+.inputs {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left; 
+    font-size: 14px;
+    margin-bottom: 5px;
+    width: 100%; 
+}
+
+.inputs input {
+    width: 100%;
+    font-size: 14px;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    background: #f1f1f1;
+    color: black;
+    border: 1px solid #ccc;
+    border-radius: 0 !important;
+}
+.inputs input[type="button"]{
+    background-color: black;
+    color:white;
+}

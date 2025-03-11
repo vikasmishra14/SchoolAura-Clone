@@ -1,0 +1,56 @@
+.navbar{
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff5202;
+    height: 50px;
+}
+.menuItems{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 120px;
+    align-items: center;
+    width: 850px;
+  
+}
+.menuItems li{
+    list-style: none;
+}
+.menuItems li a{
+    text-decoration: none;
+    color: white; 
+}
+.university{
+    background-color: #0d1028;
+    padding:8px 10px;
+    border-radius: 2px;
+}
+.nav-logo {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .logo-img {
+    position: relative;
+    z-index: 10;
+    width: 100%; 
+    margin-left: 50%;
+    height: 40px;
+  }
+  
+  .logo-cloud {
+    background-image: url(https://www.schoolaura.com/Content/new_assets/images/header/logo-cloud.png);  /* Correct the path of the image */
+    position: absolute;
+    height: 130px;
+    width: 280px;
+    background-repeat: no-repeat;
+    left: 94%;   
+    top: -38%;  
+    transform: translateX(-50%) translateY(10px);   
+    background-size: contain;
+    z-index: 2;
+  }
+  
+  

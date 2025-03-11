@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* css for header */
+
+
+
+.header-main-div {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  height: 40px;
+  background-color: white;
+}
+
+.header-contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 15px;
+  width: 380px;
+  margin-left: 100px;
+  color: black;
+}
+
+.contact-icons {
+  padding: 3px; 
+  font-size: 10px;
+  border-radius: 50%;
+  background-color: #ff5202;
+  color: white; /* Icon color */
+}
+
+.mob-num {
+  color: blue;
+}
+
+.anchor-mail {
+  color: black;
+  text-decoration: none;
+}
+
+.header-social {
+  display: flex;
+  justify-content: center;
+  width: 450px;
+  margin-right: 100px;
+  /* border: 2px solid red; */
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+  width: 250px; 
+
+  /* border: 2px solid yellow; */
+}
+
+.social-icons a {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 15px;  
+  width: auto;
+  margin: auto; 
+  padding: 0px 5px;
+  border-radius: 1px;
+  text-decoration: none;   
+  color: white; 
+}
+
+/* WhatsApp Icon Background Color */
+.whatsapp-icon { 
+  background-color: #28d94c; 
+}
+
+/* Mobile Icon Background Color */
+.mobile-icon {
+  background-color: #a4c639;  
+}
+
+.login-register{
+  display:flex;
+  justify-content: space-between;
+  width: 180px;
+
+  /* border: 2px solid rgb(10, 10, 10); */
+}
+/* Login/Register Buttons Background Color */
+.login-register a {
+  height: 30px; 
+  width: auto;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  padding: 0px 5px; 
+  text-decoration: none;
+  color: white;   
+}
+
+/* Login Button Color */
+.login-icon {
+  background-color: #0d1028;
+}
+
+/* Register Button Color */
+.register-icon {
+  background-color: #0d1028;
+}
+
+/* Hover Effect */
+.social-icons a:hover, 
+.login-register a:hover {
+  opacity: 0.8;   
+}
+
+.content{
+  background-color: black;
+  height: 100vh;
+}

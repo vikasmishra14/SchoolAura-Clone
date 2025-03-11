@@ -1,0 +1,95 @@
+.parents-review {
+    margin: 50px 0;
+    padding: 50px 0;
+    background-color: #f1f1f1;
+  }
+  /* /Content/new_assets/images/tutor-solution-page/user-3.png */
+
+  .parents-review {
+    text-align: center;
+    padding: 50px 20px;
+    background: #f9f9f9;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .main-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .main-heading span {
+    color: #ff6600;
+  }
+  
+  .parent-slider {
+    margin-top: 20px;
+  }
+  
+  .review-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .review-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  
+  .user-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 15px;
+  }
+  
+  .user-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .user-info h4 {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 0;
+  }
+  
+  .user-info small {
+    color: #ff6600;
+  }
+  
+  .user-testi-info {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .slick-slide {
+    padding: 10px;
+  }
+  
+  .slick-dots li button:before {
+    color: #ff6600;
+  }
+  
+  .slick-prev:before,
+  .slick-next:before {
+    color: #ff6600;
+  }
+  
